@@ -12,8 +12,6 @@ workflows:
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.lusoquantum.limbloop
-      vars:
-        APP_STORE_APP_ID: 0000000000 # TODO: numeric Apple ID of the App Store Connect app
     triggering:
       events:
         - push
